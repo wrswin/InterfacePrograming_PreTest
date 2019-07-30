@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'movie-info',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movie-info.component.css']
 })
 export class MovieInfoComponent implements OnInit {
+  @Input() title: string;
+  @Input() rating: number;
+  @Input() shortDescription: string;
+  @Input() runtime: number;
+  @Input() releaseDate: Date;
+  @Input() movieThumbnail: string;
+
   constructor() {
     
   }

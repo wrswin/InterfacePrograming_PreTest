@@ -1,7 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-navigation-bar></app-navigation-bar>
 <div style="text-align:center">
-  <movie-info></movie-info>
+  <movie-info
+    [title]="exampleMovieInfo.title"
+    [rating]="exampleMovieInfo.rating"
+    [shortDescription]="exampleMovieInfo.shortDescription"
+    [runtime]="exampleMovieInfo.runtime"
+    [releaseDate]="exampleMovieInfo.releaseDate"
+    [movieThumbnail]="exampleMovieInfo.movieThumbnail"
+  ></movie-info>
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
