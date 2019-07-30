@@ -1,0 +1,7 @@
+:host {
+  display: flex;
+}
+
+movie-description {
+  padding: 10px;
+}

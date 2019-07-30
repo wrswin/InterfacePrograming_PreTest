@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+div {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#sub > div {
+  padding-right: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+:host {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#movieInfoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+movie-info {
+  width: 50%;
+}
